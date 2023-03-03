@@ -1,0 +1,88 @@
+{
+  "picBed": {
+    "current": "github",
+    "uploader": "github",
+    "smms": {
+      "token": ""
+    },
+    "github": {
+      "repo": "thulc/img-bed",
+      "branch": "picgo",
+      "token": "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",
+      "path": "",
+      "customUrl": ""
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": true
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": true
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      }
+    ],
+    "proxy": "http://127.0.0.1:7890"
+  },
+  "settings": {
+    "autoRename": false,
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "Ctrl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "showUpdateTip": false,
+    "privacyEnsure": true,
+    "uploadNotification": true,
+    "logLevel": [
+      "error"
+    ],
+    "logFileSizeLimit": 10,
+    "proxy": "",
+    "registry": ""
+  },
+  "picgoPlugins": {
+    "picgo-plugin-custom-path": true
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "needReload": false,
+  "picgo-plugin-custom-path": {
+    "path": ""
+  }
+}
